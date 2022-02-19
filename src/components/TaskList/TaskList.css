@@ -1,0 +1,17 @@
+.table-title {
+    text-align: center;
+    color: rgb(1, 1, 1);
+    font-size: 2.2rem;
+    letter-spacing: 1rem;
+    padding-bottom: 5px;
+  }
+  
+  .to-do-list {
+    color:rgb(137, 167, 228);
+    border-radius: 50px;
+    margin: 30px auto;
+    border: none;
+    height: 50px;
+    letter-spacing: 1rem;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, #0c0c0c 0px -2px 6px 0px inset;
+  }

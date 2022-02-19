@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    /* letter-spacing: 30px; */
+    background-image: url("https://images.wallpaperscraft.com/image/single/starry_sky_tree_night_sky_119989_1920x1080.jpg");
+    /* background-image: url('https://wallpaperxyz.com/wp-content/uploads/Simple-Wallpaper-Full-HD-Free-Download-Desktop-PC-Laptop-Wallpaperxyz.com-3.png'); */
+}
+
+  .background {
+          background-image: url("https://images.wallpaperscraft.com/image/single/starry_sky_tree_night_sky_119989_1920x1080.jpg");
+    /* background-image: url('https://wallpaperxyz.com/wp-content/uploads/Simple-Wallpaper-Full-HD-Free-Download-Desktop-PC-Laptop-Wallpaperxyz.com-3.png'); */
+}
+
+
+.container {
+    font-style: oblique;
+    border: 2px;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #0b0c0c;
+    /* padding: 0 150px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-size: 5px;
+}
+
+.background{
+    height: 120vh;
+  }
+
+  .title {
+      letter-spacing: 5px;
+      font-size: 35px;
+  }
+
+  .top-bar{
+    justify-content: space-between;
+  }
+
+  .dark-mode {
+    font-size: 30px;
+  }

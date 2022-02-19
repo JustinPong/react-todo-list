@@ -1,0 +1,121 @@
+  .new-task{
+    color:rgb(14, 15, 15);
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset;
+  }
+
+  .add-task-btn {
+    margin: 20px;
+    height: 5rem;
+
+}
+
+  .img { 
+    width:80%; 
+    z-index: 0;
+  } 
+     
+  .text-over-img { 
+    z-index:1;
+    font-size: 2em;
+    text-align: center;
+    }
+  
+  .new-task-title {
+    text-align: center;
+    background-color: transparent;
+    font-size: 3rem;
+    letter-spacing: .8rem;
+    
+  }
+  
+  .form-group {
+    margin: 10px 20px;
+    color: rgb(6, 6, 7);
+    letter-spacing: .2rem;
+    font-size: 22px;
+  }
+
+  #name-input{
+    background: linear-gradient(90deg, rgba(224,229,244,1) 28%, rgba(234,238,242,1) 61%, rgba(237,240,241,1) 98%, rgba(228,237,238,1) 100%, rgba(226,234,244,1) 100%, rgba(216,227,240,1) 100%, rgba(236,236,241,1) 100%);    font-size: 22px;
+    margin: 10px auto;
+    height: 2.3rem;
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset;
+  }
+
+  #description-input1{
+    background: linear-gradient(90deg, rgba(224,229,244,1) 28%, rgba(234,238,242,1) 61%, rgba(237,240,241,1) 98%, rgba(228,237,238,1) 100%, rgba(226,234,244,1) 100%, rgba(216,227,240,1) 100%, rgba(236,236,241,1) 100%);
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin: 10px auto;
+    height: 2.3rem;
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset;
+  }
+
+  #assignedTo-input{
+    background: linear-gradient(90deg, rgba(224,229,244,1) 28%, rgba(234,238,242,1) 61%, rgba(237,240,241,1) 98%, rgba(228,237,238,1) 100%, rgba(226,234,244,1) 100%, rgba(216,227,240,1) 100%, rgba(236,236,241,1) 100%);
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin: 10px auto;
+    height: 2.3rem;
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset;  }
+
+  #date-input{
+    background: linear-gradient(90deg, rgba(224,229,244,1) 28%, rgba(234,238,242,1) 61%, rgba(237,240,241,1) 98%, rgba(228,237,238,1) 100%, rgba(226,234,244,1) 100%, rgba(216,227,240,1) 100%, rgba(236,236,241,1) 100%);
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin: 10px auto;
+    height: 2.3rem;
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset; 
+    font-size: 1.3rem; 
+  }
+  
+  .row-form {
+    margin: 7px;
+    color: rgb(6, 6, 7);
+  }
+  
+  .errorMessage{
+    color: red;
+  }
+
+  .btn {
+    font-size: 3rem;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .col-12 {
+    background: linear-gradient(90deg, rgba(224,229,244,1) 28%, rgba(234,238,242,1) 61%, rgba(237,240,241,1) 98%, rgba(228,237,238,1) 100%, rgba(226,234,244,1) 100%, rgba(216,227,240,1) 100%, rgba(236,236,241,1) 100%);
+    font-size: 22px;
+    letter-spacing: 3px;
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset;
+}
+
+::placeholder {
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+}
+
+label {
+    font-size: 25px;
+    letter-spacing: .3rem;
+}
+.modal-header,
+.modal-body,
+.modal-footer
+{
+    background: linear-gradient(90deg, rgba(206,215,237,1) 0%, rgba(169,223,228,1) 0%, rgba(205,224,245,1) 0%, rgba(189,217,233,1) 23%, rgba(219,212,242,1) 38%, rgba(214,231,249,1) 58%, rgba(219,218,232,1) 100%);
+    border: none;
+    box-shadow: rgba(159, 159, 179, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(20, 20, 20) 0px -2px 6px 0px inset;
+}
